@@ -1,0 +1,9 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+greeting-service:
+  greeting: "Olá"
+  default-value: "Mundo"
